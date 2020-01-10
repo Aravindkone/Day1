@@ -14,6 +14,11 @@ public class UserId {
 	username.sendKeys("8526278052");
 	WebElement password = t.findElement(By.name("password"));
 	password.sendKeys("Aravind123@");
+	WebElement element = t.findElement(By.id("pass"));
+	element.sendKeys("1234@");
+	WebElement element1 = t.findElement(By.id("pass"));
+	element1.sendKeys("1234@");
+	
 	t.quit();
 	
 		
